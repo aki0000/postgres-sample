@@ -7,4 +7,4 @@ ENV POSTGRES_PASSWORD=postgres
 
 USER postgres
 
-ENTRYPOINT [ "docker-entrypoint.sh" ]
+CMD [ "postgres" ]
